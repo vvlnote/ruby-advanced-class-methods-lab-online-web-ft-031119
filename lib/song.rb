@@ -38,4 +38,5 @@ class Song
       song = self.create_by_name(name)
     end
     song
+  end
 end
