@@ -28,7 +28,7 @@ class Song
     song
   end
   
-  def self.new_from_filename(file_name)
+  def self.create_from_filename(file_name)
     arr = file_name.split(/\./)[0].split(' - ')
     puts "#{arr}"
     song = self.new_by_name(arr[1])
