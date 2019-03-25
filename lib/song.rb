@@ -26,5 +26,6 @@ class Song
     song = self.create
     puts "#{song}"
     song.name = name
+    puts "#{song.name}"
   end
 end
