@@ -23,6 +23,7 @@ class Song
   end
   
   def self.crate_by_name(name)
-    song = self.new_by_name(name)
+    song = self.create
+    song.name = name
   end
 end
